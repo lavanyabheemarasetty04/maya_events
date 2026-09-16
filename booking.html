@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>
+            booking
+        </title>
+        <style>
+
+            header{
+                background-color: darkgoldenrod;
+                display: flex;
+                font-size:x-large;
+                margin-left: auto;
+            }
+            
+.he3{
+                position: absolute;
+                top:100px;
+                left:150px;
+            }
+            .he2{
+                position: absolute;
+                top: 10pxpx;
+                left:150px;
+            }
+            .navi{
+                display: flex;
+                color:beige ;
+                font-size: larger;
+                align-items: flex-end;
+                border: 2px solid beige;
+                padding: 15px;
+                position: absolute;
+                right: 15px;
+                top:15px;
+            }
+            .navi a {
+            color: beige;
+            font-size: 20px;
+            border: 1px solid beige;
+            margin: 5px;
+            padding: 8px 15px;
+            }
+            section{
+                display: flex;
+                gap:155px;
+            }
+           button{
+            background-color:black;
+            color: antiquewhite;
+            border: 5px;
+            border-radius: 25px;
+            width: 300px;
+            height: 70px;
+            position: absolute;
+            top:600px;
+            left: 600px;
+            font-size: 30px;
+           }
+           body{
+            background-color:bisque;
+           }
+           section div label{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 18px;
+           }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div><img src="https://template.canva.com/EAG1Zk-06pg/1/0/1600w--Xr113SFROE.jpg" alt="logo" width="100px" height="150px">
+            </div>
+            <div class="he2"><h1> MAYA EVENTS</h1><br></div>
+            <div class="he3">
+            <p> <q>you create moments,we create memories</q></p></div>
+            <div class="navi">
+             <nav>
+                <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">service</a>
+            <a href="gallery.html">gallery</a>
+            <a href="booking.html">booking</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        </div>
+        </header>
+        <h1> fill the following details to join us </h1>
+        <section>
+            <div>
+                <h1>personal details</h1>
+                <label for="fname"Name> Name </label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="mail">E-mail</label><br>
+                <input type="email" id="mail" name="mail"><br><br>
+                <label for="phno">phone number</label><br>
+                <input type="number" id="phno" name="phno">
+            </div>
+            <div>
+                <h1>event details</h1>
+                <label for="events">event type:</label><br>
+                <select id="events" name="events">
+                <option value="wedding">wedding</option>
+                <option value="birthday">birthday</option>
+                <option value="corporate">corporate events</option>
+                <option value="concert">concerts</option>
+                <option value="college">college events</option>
+                </select><br><br>
+                <label for="guest">no.of guests</label><br>
+                <input type="number" id="guest" name="guest"><br><br>
+                <label for="date">Date</label><br>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="venue">venue</label><br>
+                <input type="text" id="venue" name="venue"><br><br>
+            </div>
+            <div>
+               <h1>budget Planning</h1>
+               <label for="budget">expenditure</label><br>
+               <input type="number" id="budget" value="budget"><br><br>
+               <p>payment method</p>
+               <form>
+               <input type="radio" id="digital" name="digital">
+               <label for="digital">digital</label>
+               <input type="radio" id="cash" name="cash">
+               <label for="cash">cashl</label>
+               <input type="radio" id="EMI" name="EMI">
+               <label for="EMI">EMI</label>
+               </form><br>
+               <label for="due">Due Date</label><br>
+               <input type="date" id="date" name="date">
+            </div>
+            <div>
+            
+               <h1>requirements</h1>
+               <label for="req">enter your specifed requirements</label><br>
+                <textarea name="requirements" rows="5" cols="40">my specifications are....</textarea>
+            </div>
+        </section>
+        <button onclick="alert('your booking for an event is succesfull')">book an event</button>
+    </body>
+</html>

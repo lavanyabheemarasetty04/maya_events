@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <title>
+            contact
+        </title>
+        <style>
+         header{
+                background-color:darksalmon;
+                display: flex;
+                font-size:x-large;
+                margin-left: auto;
+            }
+            
+.he3{
+                position: absolute;
+                top:100px;
+                left:150px;
+                color: antiquewhite;
+            }
+            .he2{
+                position: absolute;
+                top: 10pxpx;
+                left:150px;
+                columns: antiquewhite;
+            }
+            .navi{
+                display: flex;
+                color:pink ;
+                font-size: larger;
+                align-items: flex-end;
+                border: 2px solid beige;
+                padding: 15px;
+                position: absolute;
+                right:24px;
+                top:55px;
+                border-radius: 30px;
+            }
+            .navi a {
+            color:brown;
+            font-size: 20px;
+            border: 1px solid pink;
+            margin: 5px;
+            border-radius: 25px;
+            padding: 8px 15px;
+            }
+            .navi1{
+                background-color: burlywood;
+                color: crimson;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 13px;
+                width: 1497px;
+                padding:8px;
+            }
+           /* .slide{
+              display:none;
+              margin-top: 250px;
+              
+              
+              margin-left:1000px;
+              margin: 10px;
+              border: 5px solid;
+              border-radius: 20px;
+              width: 400px;
+              padding:80px;
+              input[type="radio"],
+label {
+    position: relative;
+    z-index: 10;
+
+            }*/
+            .slide {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-radius: 20px;
+    width: 400px;
+    padding: 80px;
+    background-color: blanchedalmond;
+}
+
+input[type="radio"],
+label {
+    position: relative;
+    z-index:20;
+}
+            #office:checked + label + .slide {
+           display: block;
+            }
+            #CI:checked + label + .slide {
+           display: block;
+            }
+            #work:checked + label + .slide {
+           display: block;
+            }
+            #SM:checked + label + .slide {
+           display: block;
+            }
+           /* body{
+                background-image: url('con.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }*/
+            section{
+                 background-image: url('concyy.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:990px;
+                padding:300px;
+            }
+            div label{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size:33px;
+                color: beige;
+                margin: 15px;
+                
+            }
+            /*div{
+                display:flex;
+                flex-direction: row;
+            
+            }*/
+        </style>
+    </head>
+    <body>
+     <header>
+            <div><img src="https://template.canva.com/EAG1Zk-06pg/1/0/1600w--Xr113SFROE.jpg" alt="logo" width="100px" height="150px">
+            </div>
+            <div class="he2"><h1> MAYA EVENTS</h1><br></div>
+            <div class="he3">
+            <p> <q>you create moments,we create memories</q></p></div>
+            <div class="navi">
+             <nav>
+                <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">service</a>
+            <a href="gallery.html">gallery</a>
+            <a href="booking.html">booking</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        </div>
+        </header>
+        <section>
+            <div>
+                <input type="radio" id="office" name="name">
+                <label for="office">our office </label>
+                <div class="slide office-slide">
+                <h1>our office</h1>
+                  <p>Eventora Events</p>
+                  <p> Vijayawada, Andhra Pradesh</p>
+                  <p> India</p>
+                  </div>
+                <input type="radio" id="CI" name="name">
+                <label for="CI">contact information</label>
+                <div class="slide">
+               <h1>contact information</h1>
+              <p>Ph.NO:9959496218<br>
+               Email:maya20@email.com
+             </p>
+            </div>
+                <input type="radio" id="work" name="name">
+                <label for="work">working hours</label>
+                <div class="slide">
+               <h1>working hous</h1>
+               <p>Monday – Saturday</p>
+             <p>  9:00 AM – 6:00 PM   </p>
+            </div>
+                <input type="radio" id="SM" name="name">
+                <label for="SM">Social media</label>
+                <div class="slide">
+               <h1>socail media</h1>
+              <p> Instagram<br>
+               Facebook<br>
+               YouTube</p>
+            </div>
+            
+            <!--<div class="slide">
+                <h1>our office</h1>
+                  <p>Eventora Events</p>
+                  <p> Vijayawada, Andhra Pradesh</p>
+                  <p> India</p>
+            </div>-->
+            
+            <!--<div class="slide">
+               <h1>working hous</h1>
+               <p>Monday – Saturday</p>
+             <p>  9:00 AM – 6:00 PM   </p>
+            </div>-->
+          <!-- <div class="slide">
+               <h1>socail media</h1>
+              <p> Instagram<br>
+               Facebook<br>
+               YouTube</p>
+             </div>-->
+             </div>
+        </section>
+    </body>
+</html>
